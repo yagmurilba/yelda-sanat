@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  background-color: #fffaf7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #f2e8dc;
+  padding: 2em;
+  text-align: center;
+}
+
+.cta-button {
+  background-color: #d4a5a5;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
