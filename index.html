@@ -2,10 +2,73 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <title>Test Sayfası</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yelda Sanat Merkezi</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Yelda Sanat Merkezi</h1>
-  <p>Bu bir testtir. Sayfa düzgün yükleniyor mu?</p>
+  <header class="main-header">
+    <h1>Yelda Sanat Merkezi</h1>
+    <p>Bale ve Müzik Dersleri</p>
+    <a href="#contact" class="cta-button">Ücretsiz Deneme Dersi Al</a>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>Hakkımızda</h2>
+      <p>Yelda Sanat Merkezi, çocuklar ve yetişkinler için bale, piyano, keman ve şan eğitimi sunar. Sanat yolculuğunuzda size ilham vermeyi hedefliyoruz.</p>
+    </section>
+
+    <section id="schedule">
+      <h2>Ders Programı</h2>
+      <table class="schedule-table">
+        <thead>
+          <tr>
+            <th>Gün</th>
+            <th>Saat</th>
+            <th>Ders</th>
+            <th>Eğitmen</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Pazartesi</td>
+            <td>16:00</td>
+            <td>Bale (Başlangıç)</td>
+            <td>Elif Hoca</td>
+          </tr>
+          <tr>
+            <td>Salı</td>
+            <td>17:00</td>
+            <td>Piyano (Orta Seviye)</td>
+            <td>Mert Bey</td>
+          </tr>
+          <tr>
+            <td>Çarşamba</td>
+            <td>18:00</td>
+            <td>Şan Eğitimi</td>
+            <td>Ayşe Hoca</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Google Calendar embed iframe (örnek) -->
+      <div class="calendar-container">
+        <h3>Canlı Takvim</h3>
+        <iframe src="embed-calendar.html" width="100%" height="600" style="border:0;"></iframe>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>İletişim</h2>
+      <p><strong>Adres:</strong> Kadıköy, İstanbul</p>
+      <p><strong>Telefon:</strong> 0555 123 4567</p>
+      <p><strong>E-posta:</strong> <a href="mailto:info@yelda.com">info@yelda.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Yelda Sanat Merkezi</p>
+  </footer>
 </body>
 </html>
